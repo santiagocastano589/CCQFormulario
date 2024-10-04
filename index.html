@@ -12,10 +12,17 @@
         <div class="logo">
             <img src="./LogoClinica.png" alt="logo">
         </div>
+        <!-- <svg class="ecg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                viewBox="-470 260 500 50" xml:space="preserve">
+                <polyline fill="none" class="ecg-line" stroke="#ffffff" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10"
+                points="-470,281 -436,281 -418.9,281 -423.9,281 -363.2,281 -355.2,269 -345.2,303 -335.2,263 -325.2,291 -319.2,281 100,281" />
+        </svg> -->
+
         <h2>Clínica Central del Quindío</h2>
     </header>
-    <h1>Formulario</h1>
     <main>
+        <h1>Formulario De Pacientes</h1>
+
         <div class="container">
             <form action="#">
                 <div class="box">
@@ -49,7 +56,8 @@
                     </div>
     
                     <div class="data">
-                        <input type="datetime-local" name="fecha" id="fecha">
+                                                
+                    <input type="datetime-local" name="fecha" id="fecha" class="date">
     
                     <select name="idRadicador" id="idRadicador">
                         <option value="">ID Radicador</option>
@@ -73,9 +81,9 @@
     
                     <input type="text" name="NombrePaciente" id="NombrePaciente" placeholder="Ingrese Nombre del Paciente">
     
-                    <input type="text" name="Telefono1" id="Telefono1" placeholder="Ingrese Telefono 1">
+                    <input type="number" name="Telefono1" id="Telefono1" placeholder="Ingrese Telefono 1">
     
-                    <input type="text" name="Telefono2" id="Telefono2" placeholder="Ingrese Telefono 2">
+                    <input type="number" name="Telefono2" id="Telefono2" placeholder="Ingrese Telefono 2">
     
                     <input type="text" name="Cups1" id="Cups1" placeholder="Ingrese Cups 1">
                     <input type="text" name="Procedimiento1" id="Procedimiento1" placeholder="Ingrese Procedimiento">
